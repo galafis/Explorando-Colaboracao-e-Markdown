@@ -1,179 +1,92 @@
-# 🚀 Explorando Colaboracao E Markdown
+# Explorando Colaboracao e Markdown
 
-> DIObootcamp
+<div align="center">
 
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![License: MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+[![Docker](https://img.shields.io/badge/Docker-Ready-2496ED.svg?logo=docker)](Dockerfile)
 
-[English](#english) | [Português](#português)
+**[PT-BR](#sobre-o-projeto) | [English](#about-the-project)**
+
+</div>
 
 ---
+
+<a name="sobre-o-projeto"></a>
+
+## Sobre o Projeto
+
+> Projeto desenvolvido durante o bootcamp da [DIO (Digital Innovation One)](https://www.dio.me/)
+
+Repositorio de estudo pratico sobre **colaboracao no GitHub** e **sintaxe Markdown**. O objetivo e documentar as melhores praticas de trabalho colaborativo usando Git e GitHub, incluindo criacao de issues, pull requests, e formatacao de documentacao tecnica com Markdown.
+
+---
+
+## Fluxo de Colaboracao no GitHub
+
+```mermaid
+flowchart LR
+    A[Fork do\nRepositorio] --> B[Criar\nBranch]
+    B --> C[Commits e\nPush]
+    C --> D[Abrir\nPull Request]
+    D --> E[Code Review\ne Merge]
+
+    style A fill:#181717,color:#fff,stroke:#333
+    style B fill:#F05032,color:#fff,stroke:#cc3e26
+    style C fill:#F05032,color:#fff,stroke:#cc3e26
+    style D fill:#2ea44f,color:#fff,stroke:#22863a
+    style E fill:#0366d6,color:#fff,stroke:#0256b9
+```
+
+---
+
+## Conteudo do Repositorio
+
+| Arquivo | Descricao |
+|---|---|
+| `tutorial.md` | Tutorial de Markdown e Git |
+| `issues.md` | Exemplos de criacao de issues |
+| `pull_request_example.md` | Exemplos de pull requests |
+| `LICENSE` | Licenca MIT |
+
+## Competencias Demonstradas
+
+- Sintaxe Markdown (titulos, listas, tabelas, links, imagens, codigo)
+- Fluxo de trabalho Git (branches, commits, merges)
+- Colaboracao no GitHub (issues, pull requests, code review)
+- Documentacao tecnica profissional
+
+## Aplicacao na Industria
+
+Markdown e Git sao ferramentas essenciais para qualquer equipe de desenvolvimento. Documentacao bem estruturada reduz onboarding de novos membros e melhora a manutencao de projetos.
+
+---
+
+<a name="about-the-project"></a>
 
 ## English
 
-### 🎯 Overview
+### About the Project
 
-**Explorando Colaboracao E Markdown** is a production-grade Unknown application that showcases modern software engineering practices including clean architecture, comprehensive testing, containerized deployment, and CI/CD readiness.
+> Project developed during the [DIO](https://www.dio.me/) bootcamp
 
-The codebase comprises **0 lines** of source code organized across **0 modules**, following industry best practices for maintainability, scalability, and code quality.
+A hands-on study repository about **GitHub collaboration** and **Markdown syntax**. It covers best practices for collaborative work using Git and GitHub, including issues, pull requests, and technical documentation formatting.
 
-### ✨ Key Features
+### Skills Demonstrated
 
-- **📐 Clean Architecture**: Modular design with clear separation of concerns
-- **🧪 Test Coverage**: Unit and integration tests for reliability
-- **📚 Documentation**: Comprehensive inline documentation and examples
-- **🔧 Configuration**: Environment-based configuration management
-
-### 🏗️ Architecture
-
-```mermaid
-graph TB
-    subgraph Core["🏗️ Core"]
-        A[Main Module]
-        B[Business Logic]
-        C[Data Processing]
-    end
-    
-    subgraph Support["🔧 Support"]
-        D[Configuration]
-        E[Utilities]
-        F[Tests]
-    end
-    
-    A --> B --> C
-    D --> A
-    E --> B
-    F -.-> B
-    
-    style Core fill:#e1f5fe
-    style Support fill:#f3e5f5
-```
-
-### 🚀 Quick Start
-
-#### Prerequisites
-
-#### Installation
-
-```bash
-git clone https://github.com/galafis/Explorando-Colaboracao-e-Markdown.git
-cd Explorando-Colaboracao-e-Markdown
-```
-
-### 📁 Project Structure
-
-```
-Explorando-Colaboracao-e-Markdown/
-├── LICENSE
-├── README.md
-├── issues.md
-├── pull_request_example.md
-└── tutorial.md
-```
-
-### 🛠️ Tech Stack
-
-| Technology | Description | Role |
-|------------|-------------|------|
-
-### 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
-
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-### 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-### 👤 Author
-
-**Gabriel Demetrios Lafis**
-- GitHub: [@galafis](https://github.com/galafis)
-- LinkedIn: [Gabriel Demetrios Lafis](https://linkedin.com/in/gabriel-demetrios-lafis)
+- Markdown syntax (headings, lists, tables, links, images, code blocks)
+- Git workflow (branches, commits, merges)
+- GitHub collaboration (issues, pull requests, code review)
+- Professional technical documentation
 
 ---
 
-## Português
+## Licenca | License
 
-### 🎯 Visão Geral
+Este projeto esta licenciado sob a [Licenca MIT](LICENSE). | This project is licensed under the [MIT License](LICENSE).
 
-**Explorando Colaboracao E Markdown** é uma aplicação Unknown de nível profissional que demonstra práticas modernas de engenharia de software, incluindo arquitetura limpa, testes abrangentes, implantação containerizada e prontidão para CI/CD.
+---
 
-A base de código compreende **0 linhas** de código-fonte organizadas em **0 módulos**, seguindo as melhores práticas do setor para manutenibilidade, escalabilidade e qualidade de código.
-
-### ✨ Funcionalidades Principais
-
-- **📐 Clean Architecture**: Modular design with clear separation of concerns
-- **🧪 Test Coverage**: Unit and integration tests for reliability
-- **📚 Documentation**: Comprehensive inline documentation and examples
-- **🔧 Configuration**: Environment-based configuration management
-
-### 🏗️ Arquitetura
-
-```mermaid
-graph TB
-    subgraph Core["🏗️ Core"]
-        A[Main Module]
-        B[Business Logic]
-        C[Data Processing]
-    end
-    
-    subgraph Support["🔧 Support"]
-        D[Configuration]
-        E[Utilities]
-        F[Tests]
-    end
-    
-    A --> B --> C
-    D --> A
-    E --> B
-    F -.-> B
-    
-    style Core fill:#e1f5fe
-    style Support fill:#f3e5f5
-```
-
-### 🚀 Início Rápido
-
-#### Prerequisites
-
-#### Installation
-
-```bash
-git clone https://github.com/galafis/Explorando-Colaboracao-e-Markdown.git
-cd Explorando-Colaboracao-e-Markdown
-```
-
-### 📁 Estrutura do Projeto
-
-```
-Explorando-Colaboracao-e-Markdown/
-├── LICENSE
-├── README.md
-├── issues.md
-├── pull_request_example.md
-└── tutorial.md
-```
-
-### 🛠️ Stack Tecnológica
-
-| Tecnologia | Descrição | Papel |
-|------------|-----------|-------|
-
-### 🤝 Contribuindo
-
-Contribuições são bem-vindas! Sinta-se à vontade para enviar um Pull Request.
-
-### 📄 Licença
-
-Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
-
-### 👤 Autor
-
-**Gabriel Demetrios Lafis**
-- GitHub: [@galafis](https://github.com/galafis)
-- LinkedIn: [Gabriel Demetrios Lafis](https://linkedin.com/in/gabriel-demetrios-lafis)
+Developed by [Gabriel Demetrios Lafis](https://github.com/galafis)
